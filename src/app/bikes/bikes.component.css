@@ -1,0 +1,12 @@
+.section_image{
+    background-image: url('../assets/images/Bike-Trip.jpg');
+    background-size: cover;
+    background-position: 0% 95%;
+  }
+    
+  .section_stuff{
+    height: 50vh;
+  }
+  a{
+    text-decoration: none;
+  }

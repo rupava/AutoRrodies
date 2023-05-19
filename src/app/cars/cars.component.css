@@ -1,0 +1,12 @@
+.section_image{
+  background-image: url('../assets/images/mahindra-Thar.jpg');
+  background-size: cover;
+  background-position: 50% 65%;
+}
+  
+.section_stuff{
+  height: 50vh;
+}
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,80 @@
+<div class="album pb-5 bg-body-tertiary">
+
+    <c-carousel [interval]="5000" transition="slide" class=".c_style">
+        <c-carousel-inner>
+          <c-carousel-item *ngFor="let slide of idName" class="item_style">
+            <div class="{{slide}} csrl_height" loading="lazy"></div>
+          </c-carousel-item>
+        </c-carousel-inner>
+    </c-carousel>
+
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <div class="py-5">
+                <h1>{{tagNames[randomIndex]}}</h1>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-evenly">
+            <div class="col d-flex justify-content-center my-3">
+                <a routerLink="cars">
+                        <div class="mx-2 bg-success car_card car_img d-flex justify-content-center align-items-end pb-5">
+                            <div class="hid_label fs-2">Cars</div>
+                        </div>
+                </a>
+            </div>
+            <div class="col d-flex justify-content-center my-3">
+                <a routerLink="bikes">
+                    <div class="mx-2 bg-success car_card bike_img d-flex justify-content-center align-items-end pb-5">
+                        <div class="hid_label fs-2">Bikes</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col d-flex justify-content-center my-3">
+                <a routerLink="commercial">
+                    <div class="mx-2 bg-success car_card commercial_img d-flex justify-content-center align-items-end pb-5">
+                        <div class="hid_label fs-2">Commercial</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h2 class="fs-2 fw-bold">Driving Choice, Unleashing Excellence</h2>
+                <p>Unlock Limitless Choices. Find Your Perfect Car from a Wide Selection of Top Brands.</p>
+            </div>
+            <div class="col">
+                IMAGE
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                IMAGE
+            </div>
+            <div class="col">
+                <h2 class="fs-2 fw-bold">Seize the Wheel, Customized Finance to Fuel Your Ambitions</h2>
+                <p>At our dealership, we firmly believe in offering a range of flexible and tailored finance options to suit your unique circumstances. Whether you prefer traditional financing, lease agreements, or other specialized programs, our dedicated finance team is here to guide you through the process and find the best solution for your needs.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h2 class="fs-2 fw-bold">Your Drive, Our Commitment</h2>
+                <p>Our unwavering commitment to providing exceptional support and assistance throughout your ownership experience. We understand that your journey extends far beyond the initial purchase, and that's why we go above and beyond to ensure your satisfaction and peace of mind.</p>
+            </div>
+            <div class="col">
+                IMAGE
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                IMAGE
+            </div>
+            <div class="col">
+                Best Price
+            </div>
+        </div>
+    </div>
+</div>

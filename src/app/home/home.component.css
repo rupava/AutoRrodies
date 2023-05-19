@@ -1,0 +1,92 @@
+.ig_style{
+  max-width: 50%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.select_styles{
+  width: 50px;
+}
+
+
+.car_card{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px rgba(0,0, 0, 0.9);
+}
+
+.car_card:hover{
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.car_card:hover .hid_label {
+  /* display: block;
+  opacity: 1;
+  transition: opacity 0.5s ease; */
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.hid_label {
+  /* display: block;
+  opacity: 0;
+  transition: opacity 0.5s ease; */
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateY(40px);
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  color: black;
+  padding: 10px;
+  /* padding-right: 10px;
+  padding-left: 10px; */
+  border-radius: 10px;
+}
+
+.car_img{
+  background-image: url('../assets/images/car_cover.jpg');
+  background-size:cover;
+  background-position: -122px;
+  background-repeat: no-repeat;
+}
+
+.bike_img{
+  background-image: url('../assets/images/yamaha_bike_cover.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.commercial_img{
+  background-image: url('../assets/images/eicher.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.item_style{
+  height: 70vh;
+}
+
+.crsl_1{
+  background-image: url("https://imgd.aeplcdn.com/1280x720/n/cw/ec/53263/toyota-fortuner-left-front-three-quarter4.jpeg?wm=0");
+  background-size: cover;
+}
+
+.crsl_2{
+  background-image: url("https://stimg.cardekho.com/images/carexteriorimages/930x620/Hyundai/i20/10108/1684224627482/front-left-side-47.jpg");
+  background-size: cover;
+}
+
+.crsl_3{
+  background-image:url("https://www.motorbeam.com/wp-content/uploads/Tata-Altroz-DCA-Rear.jpg");
+  background-size: cover;
+}
+
+.csrl_height{
+  height: 70vh;
+}

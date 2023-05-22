@@ -14,8 +14,7 @@ export class HomeComponent implements OnInit {
   ]
 
   randomIndex = Math.floor(Math.random() * this.tagNames.length);
-
-  idName = ["crsl_1","crsl_2","crsl_3"]
+  
   constructor() {
   }
   ngOnInit(): void {

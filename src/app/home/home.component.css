@@ -75,18 +75,48 @@ a{
 .crsl_1{
   background-image: url("https://imgd.aeplcdn.com/1280x720/n/cw/ec/53263/toyota-fortuner-left-front-three-quarter4.jpeg?wm=0");
   background-size: cover;
+  background-position: center;
+
 }
 
 .crsl_2{
   background-image: url("https://stimg.cardekho.com/images/carexteriorimages/930x620/Hyundai/i20/10108/1684224627482/front-left-side-47.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .crsl_3{
   background-image:url("https://www.motorbeam.com/wp-content/uploads/Tata-Altroz-DCA-Rear.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .csrl_height{
   height: 70vh;
+}
+
+.perfect_car{
+  background-image: url('../assets/images/Car_Ride.jpg');
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.car_finance{
+  background-image: url('../assets/images/car_finance.jpg');
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  background-position: bottom;
+}
+
+.after_sales{
+  background-image: url('../assets/images/Aftersales.jpg');
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.hover_button{
+  fill: inherit;
 }

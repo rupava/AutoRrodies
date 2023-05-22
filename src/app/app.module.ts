@@ -10,7 +10,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { CarsComponent } from './cars/cars.component';
 import { BikesComponent } from './bikes/bikes.component';
 import { CommercialComponent } from './commercial/commercial.component';
-
 import { CarouselModule } from '@coreui/angular';
 
 @NgModule({
